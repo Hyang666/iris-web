@@ -109,7 +109,7 @@ class IrisDashboard extends React.Component {
 
     resetData = () => {
         this.setState({insertData: []},()=>{
-            this.success('Reset');
+            this.success('Clear');
         });
     };
 
@@ -214,7 +214,7 @@ class IrisDashboard extends React.Component {
             </Sider>
             <Layout>
                 <Header style={{ background: '#13233b', padding: 0 }} >
-                    <h2 className="header">Report</h2>
+                    <h2 className="header">The Data Visualisation Catalogue</h2>
                     <div className="style-two"></div>
                 </Header>
                 <Content >
@@ -285,7 +285,7 @@ class IrisDashboard extends React.Component {
                                             </Col>
                                             <Col span={3} style={{display:yAxis!=='petal length'?'none':'inline'}}>
                                                 <Button className='insert-button' type="primary" onClick={this.resetData}>
-                                                    <Icon type="rollback" /> Reset
+                                                    <Icon type="rollback" /> Clear
                                                 </Button>
                                             </Col>
                                             <Col span={3} style={{display:yAxis!=='petal width'?'none':'inline'}}>
