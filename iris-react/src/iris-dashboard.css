@@ -1,0 +1,115 @@
+@import '~antd/dist/antd.css';
+@import '~react-vis/dist/style.css';
+.iris-dasboard-example {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 120%;
+  background-color:#15243b;
+}
+
+.chart-row {
+  display: flex;
+}
+
+.rv-xy-plot__axis__title text {
+  font-size: 8px;
+}
+
+.axis-label {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.logo {
+  height: 40px;
+  margin: 16px 0 0 35px;
+  color: white;
+}
+
+.style-two {/*透明渐变水平线*/
+  width:80%;
+  margin:20px auto;
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), white, rgba(0, 0, 0, 0));
+}
+
+.header {
+  height: 40px;
+  margin: 0 0 0 0;
+  color: white;
+  text-align:center;
+  font-size: 30px;
+}
+
+.form-back {
+  background-color: #112e4b;
+  height:200px;
+  width: 230px;
+  margin:20px 0 0 0;
+
+}
+
+.y-title {
+  width:30px;
+  height:180px;
+  background:#176592;
+  margin:30px 0 0 0;
+}
+
+.versicolor-circle {
+  width:15px;
+  height:15px;
+  margin: 40px 0 0  40px;
+  line-height: 200px;
+  background: #19cdd8;
+  border-radius: 50%;
+}
+
+.setosa-circle {
+  width:15px;
+  height:15px;
+  margin: 40px 0 0  40px;
+  line-height: 200px;
+  background: #ff0000;
+  border-radius: 50%;
+}
+
+.virginica-circle {
+  width:15px;
+  height:15px;
+  margin: 40px 0 0  40px;
+  line-height: 200px;
+  background: #88572c;
+  border-radius: 50%;
+}
+
+.variable-circle {
+  width:15px;
+  height:15px;
+  margin: 40px 0 0  40px;
+  line-height: 200px;
+  background: #f8ed41;
+  border-radius: 50%;
+}
+
+.explain-span {
+  margin:-20px 0 0 65px;
+  display:inline;
+  float:left;
+  font-size: 15px;
+  color: white;
+}
+
+.insert-button {
+  width:100px;
+  margin:40px 0 0 35px;
+}
+
+.dis-insert-button {
+  visibility: hidden;
+  margin:40px 0 0 35px;
+}
